@@ -1,7 +1,7 @@
 CXX=g++
-CXXFLAGS=-O2 -g
-SOURCES=src/main.cpp
-OBJECTS=main.o
+CXXFLAGS=-O2 -std=c++2b
+SOURCES=src/new.cpp
+OBJECTS=new.o
 TARGET=csh
 
 all: $(TARGET)
